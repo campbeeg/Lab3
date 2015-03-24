@@ -7,7 +7,7 @@ public class TestPrimeFactorization {
 	@Test
 	public void test() {
 		PrimeFactorization pf = new PrimeFactorization(1); 
-		assertEquals(pf.factor(), new int[0]);
+		assertArrayEquals(pf.factor(), new int[]{});
 	}
 
 }

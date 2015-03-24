@@ -8,6 +8,6 @@ public class PrimeFactorization {
 	}
 
 	public int[] factor() {
-		return new int[0];
+		return new int[]{};
 	}
 }
