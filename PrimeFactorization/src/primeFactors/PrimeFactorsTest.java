@@ -27,4 +27,5 @@ public class PrimeFactorsTest {
 	public void testThree() {
 		assertEquals(list(3), PrimeFactors.generate(3));
 	}
+
 }
