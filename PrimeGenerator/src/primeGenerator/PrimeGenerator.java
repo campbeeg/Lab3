@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PrimeGenerator {
 
-	public List generate(final Integer inputNumber) {
+	public List<Integer> generate(final Integer inputNumber) {
 		
 		return new ArrayList<Integer>();
 	}

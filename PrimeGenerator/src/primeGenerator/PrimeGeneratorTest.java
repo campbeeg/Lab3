@@ -16,15 +16,19 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class PrimeGeneratorTest {
    private Integer inputNumber;
-   private List expectedResult;
+   private List<Integer> expectedResult;
    private PrimeGenerator primeGenerator;
+   
+   private static List<Integer> list(Integer...integers) {
+		return Arrays.asList(integers);
+	}
 
    @Before
    public void initialize() {
       primeGenerator = new PrimeGenerator();
    }
 
-   public PrimeGeneratorTest(Integer inputNumber, List expectedResult) {
+   public PrimeGeneratorTest(Integer inputNumber, List<Integer> expectedResult) {
       this.inputNumber = inputNumber;
       this.expectedResult = expectedResult;
    }
@@ -32,7 +36,8 @@ public class PrimeGeneratorTest {
    @Parameterized.Parameters
    public static Collection primeNumbers() {
       return Arrays.asList(new Object[][] {
-         { 2, new ArrayList<Integer>() },
+         { 2, list() },
+         { 3, list(2) }
       });
    }
 
