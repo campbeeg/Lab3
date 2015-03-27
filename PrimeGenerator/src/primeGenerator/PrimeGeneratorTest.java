@@ -40,7 +40,8 @@ public class PrimeGeneratorTest {
          { 4, list(2, 3) },
          { 6, list(2, 3, 5) },
          { 8, list(2, 3, 5, 7) },
-         { 11, list(2, 3, 5, 7) }
+         { 11, list(2, 3, 5, 7) },
+         { 30, list(2, 3, 5, 7, 11, 13, 17, 19, 23, 29) }
       });
    }
 
