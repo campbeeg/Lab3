@@ -38,7 +38,8 @@ public class PrimeGeneratorTest {
          { 2, list() },
          { 3, list(2) },
          { 4, list(2, 3) },
-         { 6, list(2, 3, 5) }
+         { 6, list(2, 3, 5) },
+         { 8, list(2, 3, 5, 7) }
       });
    }
 
