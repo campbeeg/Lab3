@@ -11,6 +11,8 @@ public class PrimeGenerator {
 			primes.add(2);
 		if (i > 3)
 			primes.add(3);
+		if (i > 5)
+			primes.add(5);
 		
 		return primes;
 	}
